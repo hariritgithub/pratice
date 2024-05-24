@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 2D transforms </title>
+    <style>
+        div{
+            width: 300px;
+            height: 200px;
+            background-color: pink;
+            border: 2px solid black;
+        }
+        #translate{
+            transform: translate(100px, 150px);
+        }
+        #rotate{
+            transform: rotate(75deg);
+        }
+        #scale{
+            transform: scaleY(1);
+        }
+        #skewX{
+            transform: skew(45deg, 35deg);
+        }
+        #matrix{
+            transform: matrix(5, -0.5, 0, 3, 0, -1,);
+        }
+    </style>
+</head>
+<body>
+    <h1> 2D transforms </h1>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique commodi praesentium laborum, necessitatibus quos quibusdam saepe quis quod adipisci consequatur natus voluptate, rerum repellat vero eos ad ratione dolorum. Assumenda sit quo officiis expedita dolor ullam asperiores voluptatem quaerat. Iusto tenetur explicabo dignissimos itaque, ipsum cum doloribus fuga nesciunt maiores!</p>
+    <div id="translate">
+        translate box
+    </div><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br><br>
+    <h2> rotate </h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia sequi amet repudiandae dignissimos quisquam error repellat itaque delectus nisi velit!</p><br>
+    <br>
+    <div id="rotate">
+        rotate box
+    </div><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2> scale </h2>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, nostrum! Esse sed, numquam harum nemo excepturi eius reiciendis obcaecati minus maiores assumenda. Officia nulla soluta corrupti. Cupiditate tenetur aperiam unde.</p><br>
+    <br>
+    <div id="scale">
+        scale
+    </div><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <h2> skewX & skewY </h2>
+    <div id="skewX">
+        skew
+    </div><br>
+    <br>
+    <br>
+    <br>
+    <h2> matrix </h2>
+    <div id="matrix">
+        matrix
+    </div>
+</body>
+</html>
