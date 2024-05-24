@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> HTML layout</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family:"playfair Display",serif;
+        }
+        header{
+            background-color: darkgrey;
+            padding: 30px;
+            text-align: center;
+            font-size: 25px;
+            color: white;
+        }
+        nav{
+            float:left;
+            width: 30%;
+            height:550px;
+            background: darkcyan;
+            padding: 18px;
+        }
+        nav ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: 20px;
+        }
+        a:hover{
+            background-color: whitesmoke;
+        }
+        article{
+            float: right;
+            padding: 20px;
+            width:70%;
+            background-color: lightslategray;
+            height: 550px;
+            text-align: left;
+        }
+        section::after{
+               content: "";
+               display:table;
+               clear:both;
+        }
+        h2{
+            background-color: aqua;
+            color:blue;
+        }
+        footer{
+            background-color: lightblue;
+            padding: 20px;
+            text-align: center;
+        }
+        @media(max-width:600px){
+            nav,article{
+                width:100%;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Layout</h1>
+    <p>Bootstrap is an HTML, CSS and JS library that focuses on simplifying the development of informative web pages (as opposed to web applications). The primary purpose of adding it to a web project is to apply Bootstrap's choices of color, size, font and layout to that project. As such, the primary factor is whether the developers in charge find those choices to their liking. Once added to a project, Bootstrap provides basic style definitions for all HTML elements. The result is a uniform appearance for prose, tables and form elements across web browsers. In addition, developers can take advantage of CSS classes defined in Bootstrap to further customize the appearance of their contents. For example, Bootstrap has provisioned for light- and dark-colored tables, page headings, more prominent pull quotes, and text with a highlight</p>
+    <p>A super small group of developers and I got together to design and build a new internal tool and saw an opportunity to do something more. Through that process, we saw ourselves build something much more substantial than another internal tool. Months later, we ended up with an early version of Bootstrap as a way to document and share common design patterns and assets within the company</p>
+    <header>
+        Components
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <article>
+            <h1> Bootstrap </h1>
+            <p>Bootstrap is an HTML, CSS and JS library that focuses on simplifying the development of informative web pages (as opposed to web applications). The primary purpose of adding it to a web project is to apply Bootstrap's choices of color, size, font and layout to that project. As such, the primary factor is whether the developers in charge find those choices to their liking. Once added to a project, Bootstrap provides basic style definitions for all HTML elements. The result is a uniform appearance for prose, tables and form elements across web browsers. In addition, developers can take advantage of CSS classes defined in Bootstrap to further customize the appearance of their contents. For example, Bootstrap has provisioned for light- and dark-colored tables, page headings, more prominent pull quotes, and text with a highlight.</p>
+            <p>A precompiled version of Bootstrap is available in the form of one CSS file and three JavaScript files that can be readily added to any project.</p>
+        </article>
+    </section>
+    <h2>Image</h2>
+    <img src="https://th.bing.com/th/id/OIP.s2PlroYvMDnibPbak78SQgHaEc?w=287&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" width="400" height="400"float="left" padding="2px" marign-right="10px" marign-bottom="5px" border=" 2px solid black">
+    <footer>
+        <p>Contact us: @gmail.com</p>
+    </footer>
+</body>
+</html>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Gradient </title>
+    <style>
+        div{
+            width:200px;
+            height: 200px;
+            font-size: 50px;
+            background-color: blueviolet;
+        }
+        #linear{
+            background-image: repeating-linear-gradient(to top right, orange 15%, lightseagreen 20%, yellow 25%, red 30%);
+        }
+        #radial{
+            background-image: repeating-radial-gradient(circle, blue 10%, pink 15%, yellow 25%, orangered 35%);
+        }
+        #conic{
+            background-image: conic-gradient( crimson 40deg, skyblue 110deg, green 125deg, violet 160deg);
+            border-radius: 60%;
+        }
+    </style>
+</head>
+<body>
+    <h1>  Gradient of CSS </h1>
+    <div id="linear"> linear </div><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="radial"> radial </div><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="conic"> conic </div><br>
+</body>
+</html>

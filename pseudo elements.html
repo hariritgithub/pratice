@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pseudo elements </title>
+    <style>
+        h2::first-letter{
+            text-transform: uppercase;
+            color: aqua;
+
+        }
+        h2::before{
+            content: "before is used";
+            color: blueviolet;
+        }
+        h2::after{
+            content: "after is used";
+            color: blue;
+        }
+        p::selection{
+            background-color: brown;
+            color: white;
+        }
+        p::first-line{
+            color:orange;
+            font-size: 20px;
+            font-variant: small-caps;
+            word-spacing:1px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <h1> Pseudo elements </h1>
+    <h2> this is heading tag </h2>
+    <h2> this is heading tag </h2>
+    <h2> this is heading tag </h2>
+    <h2> this is heading tag </h2>
+    <h2> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed harum dolor et, nisi veritatis itaque? Quaerat numquam, odio nisi temporibus rerum nihil atque fuga doloremque. Tempore praesentium repellat fuga eaque. </h2>
+    <p class="First"> The critical advantage that modern cellular networks have over predecessor systems is the concept of frequency reuse allowing many simultaneous telephone conversations in a given service area. This allows efficient use of the limited radio spectrum allocated to mobile services, and lets thousands of subscribers converse at the same time within a given geographic area. </p>
+</body>
+</html>

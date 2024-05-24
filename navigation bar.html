@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Navigation bar </title>
+    <style>
+        ul{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li a{
+            width: 150px;
+            height: 80px;
+            display: block;
+            background-color:orchid;
+            text-decoration: none;
+            color: white;
+        }
+        li a.active{
+            background-color: aqua;
+            color: aliceblue;
+        }
+        li a:hover:not(.active){
+            background-color: lightcoral;
+            color: lightslategray;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1> Navigation bar </h1>
+    <ul>
+        <li> <a href="#"> Home </a></li>
+        <li> <a href="#"> About </a></li>
+        <li> <a href="#"> Services </a></li>
+        <li> <a href="#"> Contact Us </a></li>
+
+    </ul>
+</body>
+</html>
